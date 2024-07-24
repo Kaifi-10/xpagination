@@ -19,7 +19,7 @@ function HomePage() {
                 setData(response.data)
                 console.log("data", response.data);
             } catch (error) {
-                console.log(error);
+                console.log('failed to fetch data');
             }
         }
         fetchData()
